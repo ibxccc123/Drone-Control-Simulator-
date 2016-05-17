@@ -6,10 +6,15 @@ NOTE: Makefile is within Source directory.
 The executable will output a key, followed by a grid.  The key for the grid is:
 
 0 - Empty air (can be occupied by a drone)
+
 1 - Drone (cannot have another drone occupy the same airspace)
+
 2 - Runway (destination where drones drop off their packages)
+
 3 - Drone Control Center / Home Base (origin where drones pick up packages and return to)
+
 4 - Runway / Home Base occupied by a drone (cannot have another drone occupy the same airspace)
+
 
 Initially, all drones begin in the home base and have packages ready to deliver.
 
