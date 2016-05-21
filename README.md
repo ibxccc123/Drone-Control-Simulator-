@@ -28,3 +28,5 @@ by the visual grid output.
 NOTE: While 10 drones have worked during testing, runtime will be slightly slow at the beginning 
 (approximately 20 seconds for a single turn to pass) due to having sleep() function calls in order 
 to have a text output speed which is readable. 
+
+Written in April 2015.
